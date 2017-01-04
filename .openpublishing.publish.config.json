@@ -1,4 +1,5 @@
 {
+  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
@@ -25,7 +26,6 @@
     "live"
   ],
   "skip_source_output_uploading": false,
-  "enable_incremental_build": true,
   "dependent_repositories": [
     {
       "path_to_root": "_themes.MSDN.Modern",
@@ -33,5 +33,6 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }
