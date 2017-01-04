@@ -1,10 +1,10 @@
-
 {
+  "build_entry_point": "docs",
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "VBA",
+      "docset_name": "VBA-optest",
       "build_source_folder": "VBA",
       "build_output_subfolder": "VBA",
       "locale": "en-us",
@@ -20,10 +20,7 @@
     }
   ],
   "notification_subscribers": [
-    "lauragra@microsoft.com",
-    "saldana@microsoft.com",
-    "v-logoff@microsoft.com",
-    "ajmay@microsoft.com"
+    "opbuild@microsoft.com"
   ],
   "branches_to_filter": [
     "live"
@@ -36,5 +33,6 @@
       "branch": "master",
       "branch_mapping": {}
     }
-  ]
+  ],
+  "need_generate_pdf_url_template": false
 }
