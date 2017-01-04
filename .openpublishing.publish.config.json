@@ -3,7 +3,7 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "VBA",
+      "docset_name": "VBA-optest",
       "build_source_folder": "VBA",
       "build_output_subfolder": "VBA",
       "locale": "en-us",
@@ -19,9 +19,7 @@
     }
   ],
   "notification_subscribers": [
-    "lauragra@microsoft.com",
-    "saldana@microsoft.com",
-    "v-logoff@microsoft.com"
+    "opbuild@microsoft.com"
   ],
   "branches_to_filter": [
     "live"
