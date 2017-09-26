@@ -20,9 +20,6 @@
     }
   ],
   "notification_subscribers": [
-    "lauragra@microsoft.com",
-    "saldana@microsoft.com",
-    "johnau@microsoft.com"
   ],
   "branches_to_filter": [
     ""
